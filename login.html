@@ -1,11 +1,23 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
 </head>
-<body>
-    <!-- start your coding here Mr.Chanti -->
+<body style="background-image: url(img.jpg); background-size: cover; background-position: center;">
+    <div class="container"> 
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"  >
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+            <button class="one" type="submit">Login</button>
+            
+        </form>
+        <p id="message"></p> 
+    </div>
+    <script src="./login.js"></script> 
 </body>
 </html>
